@@ -1,0 +1,170 @@
+{
+  "submittedTime": "2024-12-26T10:30:00.000Z",
+  "seedphraseBackedUp": true,
+  "automaticSecurityChecksEnabled": true,
+  "securityAlertsEnabled": true,
+  "isProfileSyncingEnabled": false,
+  "isProfileSyncingUpdateLoading": false,
+  "hasAccountSyncingSyncedAtLeastOnce": true,
+  "engine": {
+    "backgroundState": {
+      "NetworkController": {
+        "network": "1",
+        "provider": {
+          "chainId": "0x1",
+          "nickname": "Ethereum Mainnet",
+          "rpcUrl": "https://mainnet.infura.io/v3/abc123",
+          "type": "rpc"
+        }
+      },
+      "PreferencesController": {
+        "selectedAddress": "0x742d35cc6327c66c51e95b36e7e80e0b8c8d8f2a",
+        "lastUserActivityTime": 1703592600000,
+        "metamask": {
+          "version": "7.15.0"
+        },
+        "identities": {
+          "0x742d35cc6327c66c51e95b36e7e80e0b8c8d8f2a": {
+            "name": "Account 1",
+            "address": "0x742d35cc6327c66c51e95b36e7e80e0b8c8d8f2a"
+          },
+          "0x8ba1f109551bd432803012645hac136c5dc3c977": {
+            "name": "Account 2",
+            "address": "0x8ba1f109551bd432803012645hac136c5dc3c977"
+          }
+        },
+        "featureFlags": {
+          "showIncomingTransactions": true,
+          "useNativeCurrencyAsPrimaryCurrency": true,
+          "hideZeroBalanceTokens": false,
+          "smartTransactionsOptIn": false,
+          "useMultiAccountBalanceChecker": true,
+          "participateInMetaMetrics": false
+        }
+      },
+      "AppStateController": {
+        "lastActiveTime": 1703592600000,
+        "versions": {
+          "metamask": "7.15.0"
+        }
+      },
+      "SecurityController": {
+        "automaticSecurityChecksEnabled": true,
+        "securityAlertsEnabled": true
+      },
+      "BackupController": {
+        "seedphraseBackedUp": true
+      },
+      "SyncController": {
+        "isProfileSyncingEnabled": false,
+        "isProfileSyncingUpdateLoading": false,
+        "hasAccountSyncingSyncedAtLeastOnce": true
+      },
+      "ApprovalController": {
+        "pendingApprovals": {
+          "123": {
+            "id": "123",
+            "origin": "https://uniswap.org",
+            "type": "transaction",
+            "time": 1703592500000,
+            "requestData": {
+              "txParams": {
+                "from": "0x742d35cc6327c66c51e95b36e7e80e0b8c8d8f2a",
+                "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+                "value": "0x16345785d8a0000"
+              }
+            }
+          }
+        },
+        "approvalFlows": ["flow1", "flow2"]
+      },
+      "PermissionController": {
+        "subjects": {
+          "https://uniswap.org": {
+            "permissions": {
+              "eth_accounts": {
+                "parentCapability": "eth_accounts",
+                "date": 1703592400000
+              }
+            },
+            "origin": "https://uniswap.org"
+          },
+          "https://opensea.io": {
+            "permissions": {
+              "eth_accounts": {
+                "parentCapability": "eth_accounts",
+                "date": 1703591000000
+              }
+            },
+            "origin": "https://opensea.io"
+          }
+        }
+      },
+      "AccountTrackerController": {
+        "accounts": {
+          "0x742d35cc6327c66c51e95b36e7e80e0b8c8d8f2a": {
+            "balance": "0x1bc16d674ec80000"
+          },
+          "0x8ba1f109551bd432803012645hac136c5dc3c977": {
+            "balance": "0x5af3107a4000"
+          }
+        }
+      },
+      "TransactionController": {
+        "transactions": [
+          {
+            "id": "tx1",
+            "time": 1703592000000,
+            "status": "confirmed",
+            "txParams": {
+              "from": "0x742d35cc6327c66c51e95b36e7e80e0b8c8d8f2a",
+              "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+              "value": "0x16345785d8a0000",
+              "gas": "0x5208",
+              "gasPrice": "0x4a817c800"
+            },
+            "hash": "0x123456789abcdef",
+            "metamaskNetworkId": "1",
+            "chainId": "0x1",
+            "origin": "https://uniswap.org",
+            "submittedTime": 1703591900000
+          },
+          {
+            "id": "tx2",
+            "time": 1703591500000,
+            "status": "pending",
+            "txParams": {
+              "from": "0x742d35cc6327c66c51e95b36e7e80e0b8c8d8f2a",
+              "to": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+              "value": "0x0",
+              "gas": "0x7530",
+              "gasPrice": "0x3b9aca00"
+            },
+            "origin": "https://opensea.io",
+            "submittedTime": 1703591400000
+          }
+        ]
+      },
+      "TokenBalancesController": {
+        "contractBalances": {
+          "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": "0x56bc75e2d630eb20",
+          "0xa0b86a33e6e3ee2b3d4e8d9e34b6e0dbc8ee3f6a": "0x1bc16d674ec80000",
+          "0x6b175474e89094c44da98b954eedeac495271d0f": "0x2e90edd000"
+        }
+      }
+    }
+  },
+  "metamask": {
+    "accounts": {
+      "0x742d35cc6327c66c51e95b36e7e80e0b8c8d8f2a": "0x1bc16d674ec80000",
+      "0x8ba1f109551bd432803012645hac136c5dc3c977": "0x5af3107a4000"
+    },
+    "visitedDappsByHostname": ["uniswap.org", "opensea.io", "etherscan.io"],
+    "identities": {
+      "0x742d35cc6327c66c51e95b36e7e80e0b8c8d8f2a": {
+        "name": "Account 1",
+        "address": "0x742d35cc6327c66c51e95b36e7e80e0b8c8d8f2a"
+      }
+    }
+  }
+}
